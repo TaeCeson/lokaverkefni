@@ -1,0 +1,10 @@
+/* Taflan helst tafla, með eigin skrun á þröngum skjá. */
+.toflu-rammi { width: 100%; overflow-x: auto; border: 1px solid var(--lina); border-radius: .4rem; }
+table { margin: 0; font-size: .95rem; width: 100%; }
+caption { text-align: left; color: var(--pico-muted-color); padding: .8rem; font-size: .8rem; }
+th,td { padding: .75rem .65rem; background: transparent; border-color: var(--lina); color: var(--texti); }
+thead { background: var(--flotur); }
+tbody tr:nth-child(even) { background: var(--flotur); }
+.einkunn { color: var(--graenn); font-weight: 700; }
+html[data-theme="light"] .einkunn { color: #426f63; }
+@media (max-width: 500px) { th,td { padding: .6rem .35rem; font-size: .78rem; } .motatafla { min-width: 530px; } }

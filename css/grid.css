@@ -1,0 +1,24 @@
+/* Eins og col-2 og col-3 úr glósunum, fyrst einn dálkur. */
+.tveir-dalkar,.thrir-dalkar,.fjorir-dalkar { display: grid; grid-template-columns: minmax(0,1fr); gap: 1.2rem; }
+.forsida { display: grid; gap: 2rem; align-items: center; }
+.forsidu-texti { padding-block: 1rem; }
+.forsidu-texti h1 span { color: var(--appelsina); }
+.forsidu-texti .hnappar { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.forsidu-mynd { position: relative; margin: 0; border: 1px solid var(--lina); border-radius: .45rem; overflow: hidden; }
+.forsidu-mynd img { aspect-ratio: 4/3; object-fit: cover; }
+.forsidu-mynd figcaption { background: var(--flotur); padding: .75rem 1rem; font-size: .85rem; color: var(--texti); }
+.myndahnappar { display: flex; gap: .5rem; position: absolute; right: .7rem; bottom: 3.5rem; }
+.myndahnappar button { margin: 0; width: 2.5rem; height: 2.5rem; padding: 0; background: var(--dokk); color: var(--ljos); border-color: var(--ljos); }
+.motskort { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.motskort > img { aspect-ratio: 16/9; object-fit: cover; }
+.motskort .kort-texti { padding: 1.2rem; flex: 1; display: flex; flex-direction: column; align-items: start; }
+.motskort h3 { margin: .8rem 0; }
+.motskort .verd { font-size: 1.5rem; font-weight: 800; margin: auto 0 .8rem; padding-top: .5rem; }
+.verd small { font-size: .7rem; font-weight: 400; }
+.motskort .smatt { margin-bottom: 1rem; }
+.stadur { font-size: .88rem; }
+.kassi { background: var(--flotur); border: 1px solid var(--lina); padding: 1.5rem; border-radius: .45rem; }
+.litanofn { display: flex; flex-wrap: wrap; gap: .5rem; }
+.litasynishorn { width: 3rem; height: 3rem; border: 1px solid var(--lina); border-radius: .4rem; }
+@media (min-width: 650px) { .tveir-dalkar,.thrir-dalkar,.fjorir-dalkar { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (min-width: 1000px) { .forsida { grid-template-columns: 1fr 1.08fr; } .thrir-dalkar { grid-template-columns: repeat(3,minmax(0,1fr)); } .fjorir-dalkar { grid-template-columns: repeat(4,minmax(0,1fr)); } }

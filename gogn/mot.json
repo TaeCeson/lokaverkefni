@@ -1,0 +1,35 @@
+[
+  {
+    "id": "singapor",
+    "nafn": "PGL Singapore Major",
+    "stadur": "Singapúr",
+    "dagur": "25. nóv. – 13. des. 2026",
+    "mynd": "cs-2.jpg",
+    "verd": 14900,
+    "tegund": "MAJOR",
+    "texti": "Stærsta sviðið, bestu liðin og Major-stemning. Mótið er í Singapúr í lok árs.",
+    "heimild": "https://blast.tv/cs/tournaments/pgl-singapore-major-2026"
+  },
+  {
+    "id": "blast",
+    "nafn": "BLAST Open Singapore",
+    "stadur": "Singapúr",
+    "dagur": "15. – 28. mars 2027",
+    "mynd": "cs-3.jpg",
+    "verd": 9900,
+    "tegund": "BLAST",
+    "texti": "16 lið mæta á fyrsta BLAST Open ársins 2027. Fínt tilefni til að fylgjast með góðu CS.",
+    "heimild": "https://blast.tv/cs/news/premier-returns-to-singapore-in-2027"
+  },
+  {
+    "id": "lan",
+    "nafn": "LAN-kvöld í Reykjavík",
+    "stadur": "Reykjavík · uppbúið sýnimót",
+    "dagur": "7. nóvember 2026 · sýnidæmi",
+    "mynd": "cs-4.jpg",
+    "verd": 4900,
+    "tegund": "OKKAR LAN",
+    "texti": "Komdu með vinunum, taktu nokkra leiki og horfðu á úrslit. Einfalt LAN-kvöld búið til fyrir verkefnið.",
+    "heimild": null
+  }
+]
