@@ -1,4 +1,0 @@
-.spurningar details { border: 1px solid var(--lina); border-radius: .4rem; padding: 1rem; background: var(--flotur); }
-.spurningar summary { color: var(--texti); font-weight: 700; }
-.spurningar details[open] { border-left: 4px solid var(--appelsina); }
-.spurningar details p { margin: .7rem 0 0; }

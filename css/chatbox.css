@@ -1,5 +1,0 @@
-.spjall { position: fixed; right: 1rem; bottom: 1rem; z-index: 30; margin: 0; border: 0; padding: 0; }
-.spjall summary { background: var(--graenn); color: var(--dokk); padding: .7rem 1rem; border-radius: 2rem; font-weight: 700; box-shadow: 0 2px 8px #0003; }
-.spjall[open] .spjall-inni { display: block; }
-.spjall-inni { position: absolute; right: 0; bottom: 3.5rem; width: min(320px,calc(100vw - 2rem)); background: var(--flotur); border: 1px solid var(--lina); padding: 1rem; border-radius: .5rem; }
-.spjall-inni p { font-size: .9rem; }

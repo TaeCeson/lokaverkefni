@@ -1,4 +1,0 @@
-dialog article { width: min(560px,94vw); max-height: 90dvh; overflow-y: auto; background: var(--flotur); color: var(--texti); }
-dialog::backdrop { background: #17232dcc; }
-dialog .lokun { float: right; width: auto; padding: .25rem .65rem; margin: 0; background: transparent; color: var(--texti); border-color: var(--lina); }
-dialog h2 { margin-right: 2.5rem; }
