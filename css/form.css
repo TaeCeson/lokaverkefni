@@ -1,0 +1,13 @@
+.adgangsrammi { width: min(100%, 560px); margin: 2rem auto; }
+.flipar { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.3rem; }
+.flipar button { padding: .55rem .9rem; background: transparent; border: 1px solid var(--lina); color: var(--texti); margin: 0; font-size: .9rem; }
+.flipar button[aria-selected="true"],.flipar button[aria-pressed="true"] { background: var(--appelsina); color: var(--dokk); border-color: var(--appelsina); }
+label { color: var(--texti); font-size: .95rem; }
+input,select,textarea { font-size: 1rem; }
+.skilyrdi { padding: .7rem; background: var(--bakgrunnur); border-left: 3px solid var(--graenn); margin-bottom: 1rem; }
+.nidurstada { padding: .7rem; border-left: 3px solid var(--graenn); background: var(--flotur); }
+.villa { border-left-color: var(--appelsina); }
+.samtala { font-size: 1.25rem; font-weight: 700; }
+.leit { max-width: 400px; }
+.valkostir { display: flex; align-items: center; flex-wrap: wrap; gap: .7rem; margin-bottom: 1rem; }
+.valkostir label { margin: 0; }

@@ -1,0 +1,17 @@
+.siduhofud { border-bottom: 1px solid var(--lina); background: var(--bakgrunnur); position: sticky; top: 0; z-index: 20; }
+.haus { display: flex; align-items: center; gap: 1.2rem; padding: .8rem 0; }
+.merki { display: flex; align-items: center; gap: .65rem; color: var(--texti); text-decoration: none; margin-right: auto; font-size: 1.1rem; font-weight: 800; white-space: nowrap; }
+.merki svg { width: 44px; height: 44px; flex-shrink: 0; }
+.merki small { display: block; font-size: .63rem; letter-spacing: .17em; color: var(--pico-muted-color); text-transform: uppercase; }
+.valmynd { display: none; gap: .1rem; align-items: center; }
+.valmynd a,.farsima-listi a { color: var(--texti); text-decoration: none; font-size: .85rem; padding: .5rem .6rem; border-radius: .3rem; }
+.valmynd a:hover,.valmynd a[aria-current="page"],.farsima-listi a[aria-current="page"] { background: var(--flotur); color: var(--appelsina); }
+.thema-hnappur { margin: 0; padding: .45rem .65rem; font-size: .8rem; background: transparent; color: var(--texti); border: 1px solid var(--lina); }
+.farsima-valmynd { position: relative; margin: 0; border: none; padding: 0; }
+.farsima-valmynd summary { margin: 0; font-size: .9rem; }
+.farsima-listi { position: absolute; right: 0; top: 2.5rem; width: min(270px,82vw); padding: .7rem; background: var(--flotur); border: 1px solid var(--lina); border-radius: .4rem; box-shadow: 0 8px 18px #0003; }
+.farsima-listi a { display: block; }
+.farsima-valmynd summary { white-space: nowrap; }
+@media (max-width: 480px) { .merki small { display: none; } }
+@media (min-width: 1080px) { .valmynd { display: flex; } .farsima-valmynd { display: none; } }
+@media (max-width: 420px) { .haus { gap: .6rem; } .merki { font-size: .85rem; gap: .4rem; } .merki svg { width: 34px; height: 34px; } .thema-hnappur { font-size: .7rem; padding: .4rem; } }

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "singapor",
+    "nafn": "PGL Singapore Major",
+    "stadur": "Singapúr - Singapore Indoor Stadium",
+    "dagur": "10. - 13. desember 2026",
+    "mynd": "cs-2.jpg",
+    "tegund": "MAJOR",
+    "texti": "Úrslit Major-mótsins fara fram fyrir áhorfendur í Singapore Indoor Stadium. Veldu dag og sæti hjá Ticketmaster.",
+    "midar": "https://main.login.ticketmaster.sg/activity/detail/26sg_pglcs2major",
+    "heimild": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "stada": "Miðasala opin",
+    "seljandi": "Ticketmaster SG"
+  },
+  {
+    "id": "beijing",
+    "nafn": "IEM Beijing 2026",
+    "stadur": "Peking - Bloomage ECM Arena",
+    "dagur": "2. - 8. nóvember 2026",
+    "mynd": "cs-4.jpg",
+    "tegund": "ESL / IEM",
+    "texti": "16 lið mæta á IEM í Peking. Úrslit fara fram 6. - 8. nóvember. Alþjóðlegir gestir velja miða hjá UUTIX.",
+    "midar": "https://www.uutix.com/detail?pId=3919",
+    "heimild": "https://pro.eslgaming.com/tour/cs/beijing/",
+    "stada": "Miðasala opin",
+    "seljandi": "UUTIX"
+  },
+  {
+    "id": "blast",
+    "nafn": "BLAST Open Singapore",
+    "stadur": "Singapúr",
+    "dagur": "15. - 28. mars 2027",
+    "mynd": "cs-3.jpg",
+    "tegund": "BLAST",
+    "texti": "16 lið keppa á fyrsta BLAST Open ársins 2027. BLAST hefur staðfest mótið en miðasala hefur ekki verið staðfest enn.",
+    "midar": null,
+    "heimild": "https://blast.tv/cs/news/premier-returns-to-singapore-in-2027",
+    "stada": "Bíður miðasölu",
+    "seljandi": "BLAST"
+  }
+]

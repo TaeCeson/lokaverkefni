@@ -1,0 +1,15 @@
+.tilkynning { background: var(--gulur); color: var(--dokk); overflow: hidden; display: flex; align-items: center; gap: .5rem; border-bottom: 1px solid var(--dokk); }
+.tilkynning-braut { flex: 1; min-width: 0; overflow: hidden; }
+.tilkynning-texti { width: max-content; display: flex; gap: 3rem; padding: .45rem 1rem; font-size: .85rem; font-weight: 700; animation: tilkynning-renna 27s linear infinite; }
+.tilkynning-texti span { white-space: nowrap; }
+.tilkynning button { padding: .1rem .4rem; margin: 0 .4rem 0 0; background: transparent; color: var(--dokk); border-color: var(--dokk); font-size: .7rem; }
+.tilkynning.pasa .tilkynning-texti { animation-play-state: paused; }
+@keyframes tilkynning-renna { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.forsidu-texti { animation: koma-inn .65s ease-out; }
+@keyframes koma-inn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+.motskort { transition: transform .25s; }
+.motskort:hover { transform: translateY(-5px); }
+.merki:hover svg { animation: logo-litur 1s ease; }
+@keyframes logo-litur { 50% { transform: rotate(-8deg); filter: hue-rotate(35deg); } }
+.myndaskipti { animation: koma-inn .45s ease; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *,*::before,*::after { animation: none !important; transition: none !important; } .tilkynning-texti { white-space: normal; width: auto; display: block; } .tilkynning-texti span { white-space: normal; } .tilkynning-texti span[aria-hidden] { display: none; } }
